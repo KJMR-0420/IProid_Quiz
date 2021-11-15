@@ -1,0 +1,2 @@
+rootProject.name = "IProid_Test"
+include ':app'

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iproid_test">
+
+    <application
+        android:name=".Quizzes_Levels.MusicController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IProid_Test">
+        <activity android:name=".SplashScreen.second_splashscreen" />
+        <activity android:name=".Lecture.Intro.Statement.Statement" />
+        <activity android:name=".Lecture.Intro.Expression.Expression" />
+        <activity android:name=".Lecture.Intro.AOP.ArithmeticOP" />
+        <activity android:name=".Lecture.Intro.Introduction" />
+        <activity android:name=".Lecture.Intro.Variables.variable" />
+        <activity android:name=".Lecture.Lecture" />
+        <activity android:name=".Lecture.test_pythonCompiler" />
+        <activity android:name=".Quizzes_Levels.Result" />
+        <activity android:name=".Quizzes_Levels.QuizActivity" />
+        <activity android:name=".SplashScreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quizzes_Levels.Lessons" />
+        <activity android:name=".Quizzes_Levels.Lesson6_levels" />
+        <activity android:name=".Quizzes_Levels.Lesson5_levels" />
+        <activity android:name=".Quizzes_Levels.Lesson4_levels" />
+        <activity android:name=".Quizzes_Levels.Lesson3_levels" />
+        <activity android:name=".Quizzes_Levels.Lesson2_levels" />
+        <activity android:name=".Quizzes_Levels.Lesson1_levels" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

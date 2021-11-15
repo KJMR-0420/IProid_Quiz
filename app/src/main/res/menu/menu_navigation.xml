@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:iconTint="@color/p3"
+    android:id="@+id/Lecture"
+    android:title="Lecture"
+    android:icon="@drawable/ic_lecture"/>
+    <item
+        android:iconTint="@color/p3"
+        android:id="@+id/Quizzes"
+        android:title="Quizzes"
+        android:icon="@drawable/ic_quiz"/>
+
+    <item
+        android:visible="false"
+        android:iconTint="@color/p3"
+        android:id="@+id/Game"
+        android:title="Game"
+        android:icon="@drawable/ic_dice_game"/>
+    <item
+        android:iconTint="@color/p3"
+        android:id="@+id/Compiler"
+        android:title="Coding Area"
+        android:icon="@drawable/ic_code"/>
+    <item
+        android:visible="false"
+        android:iconTint="@color/p3"
+        android:id="@+id/Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
+
+</menu>
