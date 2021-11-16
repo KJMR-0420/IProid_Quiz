@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "iproid_test"
+        applicationId "iproid.test"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -19,13 +19,38 @@ android {
         // Chaquopy
 
         ndk {
-            abiFilters "armeabi-v7a", "x86"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
 
         // Python Path
 
         python {
             buildPython "C:/Users/KvRem/AppData/Local/Programs/Python/Python39/python.exe"
+
+            pyc {
+                src false
+            }
+//            pip{
+//                install "numpy"
+//            }
+//            pip {
+//                options "--extra-index-url", "https://example.com/private/repository"
+//                install "MyPackage==1.2.3"
+//                // A requirement specifier, with or without a version number:
+//                install "scipy"
+//                install "requests==2.24.0"
+//
+//                // An sdist or wheel filename, relative to the project directory:
+//                install "MyPackage-1.2.3-py2.py3-none-any.whl"
+//
+//                // A directory containing a setup.py, relative to the project
+//                // directory (must contain at least one slash):
+//                install "./MyPackage"
+//
+//                // "-r"` followed by a requirements filename, relative to the
+//                // project directory:
+//                install "-r", "requirements.txt"
+//            }
         }
 
         // create the folder for python script
@@ -67,5 +92,5 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
 
     //Lottie
-    implementation 'com.airbnb.android:lottie:3.4.1'
+    implementation 'com.airbnb.android:lottie:4.2.1'
 }

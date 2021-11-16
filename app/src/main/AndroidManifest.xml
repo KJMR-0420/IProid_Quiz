@@ -3,6 +3,7 @@
     package="com.example.iproid_test">
 
     <application
+
         android:name=".Quizzes_Levels.MusicController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

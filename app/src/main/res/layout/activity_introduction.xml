@@ -24,9 +24,9 @@
             >
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="350dp"
-                android:src="@drawable/collapsingbar_defaultcolor"
+                android:src="@drawable/appbar_bg"
                 android:scaleType="centerCrop"/>
 
             <androidx.appcompat.widget.Toolbar
